@@ -1212,6 +1212,34 @@ textarea:focus {
     text-decoration: underline;
 }
 
+.contact-form-section,
+.contact-info-section {
+    background: var(--surface);
+    color: var(--text);
+    border-color: var(--border);
+}
+
+.contact-form-section h2,
+.contact-info-section h2 {
+    color: var(--text);
+}
+
+.contact-form-section label {
+    color: var(--text);
+}
+
+.contact-form-section input,
+.contact-form-section textarea {
+    background: var(--surface);
+    color: var(--text);
+    border-color: var(--border);
+}
+
+.contact-form-section input::placeholder,
+.contact-form-section textarea::placeholder {
+    color: var(--text-muted);
+}
+
 /* =========================================
    19. FOOTER 
    ========================================= */
